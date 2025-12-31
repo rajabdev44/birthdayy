@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Bauna ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Great+Vibes&family=Poppins:wght@300;400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <audio src="https://soundcloud.com/arooj-fatima-64/mera-mann-kehne-laga?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" autoplay></audio>
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/download/audio/2023/03/27/audio_6b1a6d4f6c.mp3?filename=romantic-love-14470.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Browser-safe autoplay (starts on first click anywhere)
+  document.addEventListener("click", function () {
+    const music = document.getElementById("bgMusic");
+    music.volume = 0.5; // soft background
+    music.play().catch(() => {});
+  }, { once: true });
+</script>
+
+  <!-- Background Decorations -->
+  <div class="stars"></div>
+  <div class="hearts">
+    <span>❤️</span><span>💖</span><span>💗</span><span>💕</span>
+    <span>💘</span><span>❤️</span><span>💞</span><span>💓</span>
+  </div>
+  <div class="petals">
+    <span>🌸</span><span>🌹</span><span>🌸</span>
+    <span>🌹</span><span>🌸</span>
+  </div>
+
+  <!-- PAGE 1 -->
+  <section class="page active" id="page1">
+    <h1>🎂 Happy Birthday Bauna 🎂</h1>
+    <p>You make my world brighter every single day.</p>
+    <div class="floating-photos">
+  <!-- OLD -->
+  <div class="shape square photo1"><img src="./1.jpeg"></div>
+  <div class="shape oval photo2"><img src="./2.jpeg"></div>
+  <div class="shape square photo3"><img src="4.jpeg"></div>
+
+  <!-- NEW -->
+  <div class="shape oval photo4"><img src="./3.jpeg"></div>
+  <div class="shape oval photo5"><img src="./5.jpeg"></div>
+  <div class="shape oval photo6"><img src="./6.jpeg"></div>
+</div>
+    <a href="#page2" class="btn">Next 💕</a>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" id="page2">
+    <h1>💖 From My Heart 💖</h1>
+    <p> loving you is the most beautiful thing in my life. You are my peace, my smile, my forever.</p>
+    <a href="#page3" class="btn">Next ✨</a>
+  </section>
+
+  <!-- PAGE 3 -->
+<section class="page" id="page3">
+  <h1>🌹 Why I Love You 🌹</h1>
+  <ul>
+    <li>You understand me deeply</li>
+    <li>Your smile heals my soul</li>
+    <li>You are my forever</li>
+  </ul>
+
+  <!-- Surprise Box Toggle Button -->
+  <a href="javascript:void(0)" id="openSurprise" class="btn"></a>
+
+  <!-- Surprise Message Box (Initially Hidden) -->
+  <div class="surprise-box" id="surpriseBox">
+    <div class="box-hearts">
+      <span>❤️</span><span>💖</span><span>💗</span><span>💕</span>
+    </div>
+    <p class="typewriter">
+      zaini, your presence in my life is everything. Today, on your special day, your second birthday with me, I want to tell you how deeply I cherish you. Every moment we share is precious, and I promise to celebrate not just this birthday but every single birthday with you. Your laughter, your love, and your heart make my world brighter. Being with you feels like home, and I cannot imagine life without you. You are my inspiration, my happiness, my confidant, and my greatest adventure. I love how we can talk for hours, how your smile lifts me up, and how every small moment with you feels magical. I want to make countless memories with you, hold your hand through all of life’s ups and downs, and make you feel loved beyond words. Today, tomorrow, and every day, I will treasure you and celebrate you. You are my everything, my love, and my forever. Happy birthday, my beautiful Bauna.
+    </p>
+  </div>
+
+  <a href="#page4" class="btn">Memories 🎁</a>
+</section>
+  <!-- PAGE 4 -->
+  <section class="page" id="page4">
+    <h1>🎉 Forever Yours 🎉</h1>
+    <div class="polaroid-gallery">
+      <div class="polaroid"><img src="./IMG_9305.PNG"><span>Your voice 💕</span></div>
+      <div class="polaroid"><img src="./IMG_9170.JPG"><span>Your smile ❤️</span></div>
+      <div class="polaroid"><img src="./IMG_9063.JPG"><span>Forever us 🌹</span></div>
+    </div>
+    <p class="love-note">Happy Birthday Meri jaan ❤️ I promise to love you endlessly.</p>
+    <a href="#page1" class="btn">Replay 💫</a>
+  </section>
+
+</body>
+
+</html>
